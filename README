@@ -17,9 +17,3 @@ To run the program follow the steps below:
 7. Open a new terminal window and go to the 'contactlistapp' directory in the project. Run server.js through the following command
 	node server
 8. Open a web browser and go to http://localhost:3000/
-
-Quick run from the 'contactlistapp' directory (in case everything is installed correctly):
-1. run ../required\ software/mongodb-osx-x86_64-3.2.7/bin/mongod
-2. run ../required\ software/mongodb-osx-x86_64-3.2.7/bin/mongo
-3. node server
-
