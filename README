@@ -1,0 +1,25 @@
+Required Files:
+contactlistapp/server.js
+contactlistapp/public/controllers/controller.js
+contactlistapp/public/index.html
+
+To run the program follow the steps below:
+1. Install nodejs from www.nodejs.org
+2. Go to the 'contactlistapp' directory in the project and run the following commands:
+	npm install express
+	npm install mongojs
+	npm install body-parser
+3. Install MongoDB from www.mongodb.com
+4. Run mongod from the mongodb/bin directory (tested on the Mac - the path might be slightly different in different OSs)
+5. In a new terminal window run mongo from the mongodb/bin directory
+6. In the mongo terminal window type in the following command to make a database
+	use contactlist;
+7. Open a new terminal window and go to the 'contactlistapp' directory in the project. Run server.js through the following command
+	node server
+8. Open a web browser and go to http://localhost:3000/
+
+Quick run from the 'contactlistapp' directory (in case everything is installed correctly):
+1. run ../required\ software/mongodb-osx-x86_64-3.2.7/bin/mongod
+2. run ../required\ software/mongodb-osx-x86_64-3.2.7/bin/mongo
+3. node server
+
